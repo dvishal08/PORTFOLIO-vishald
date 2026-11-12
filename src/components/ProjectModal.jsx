@@ -124,7 +124,7 @@ export default function ProjectModal({ project, onClose }) {
 
           {/* Tech Stack Tags */}
           {project.techStack && project.techStack.length > 0 && (
-            <div>
+            <div> 
               <h4 className="text-xs font-mono uppercase tracking-wider text-cyan-400 mb-2.5">
                 Technologies Used
               </h4>
